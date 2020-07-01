@@ -77,10 +77,6 @@ def extract_features(hog_descriptor, images, labels):
     return x, y
 
 
-def train():
-    pass
-
-
 if __name__ == '__main__':
     print("Program started...")
     train_images, train_labels, test_images, test_labels = load_data()
